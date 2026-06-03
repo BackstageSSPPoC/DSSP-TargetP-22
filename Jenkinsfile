@@ -75,7 +75,7 @@ pipeline {
                               -Dsonar.projectKey=${APP_NAME} \
                               -Dsonar.sources=. \
                               -Dsonar.python.version=3
-                        """
+                        // """
                     }
                 }
             }
